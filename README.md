@@ -9,9 +9,10 @@ monorepo：单仓库管理
       - vite-plugin-dts：打包之后自动生成.d.ts文件；
 - 构建
   - Turborepo：用于monorepo下的仓库的统一构建处理；
+    - umd支持cjs和amd
 - ESLint TS
   - 在全局安装 ESlint 和 TS这样所有子仓库都能直接使用；
-  - ESLint --init 初始化eslint；（暂时先去掉不确定要哪些东西，react js ts jsx tsx）
+  -npx ESLint --init 初始化eslint；（暂时先去掉不确定要哪些东西，react js ts jsx tsx）
     - eslint-define-config：eslint config提示；
     - @typescript-eslint/parser：ts eslint校验；
     - eslint-config-standard：eslint标准库；

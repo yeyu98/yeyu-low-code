@@ -2,7 +2,7 @@
  * @Author: xiaohu
  * @Date: 2023-06-19 19:54:28
  * @LastEditors: xiaohu
- * @LastEditTime: 2023-06-19 20:32:27
+ * @LastEditTime: 2023-06-19 20:53:28
  * @FilePath: \yeyu-low-code\packages\core\vite.config.ts
  * @Description: 
  */
@@ -27,8 +27,8 @@ export default defineConfig({
         'react-dom'
       ],
       output: {
-        // 打包之后生成umd
-        format: 'umd',
+        // NOTE rollup默认打包之后就会生成es和umd两种格式的吗？
+        // rollup的打包策略是什么呢？
         // 告诉rollup react和react-dom是外部依赖
         globals: {
           react: 'React',
