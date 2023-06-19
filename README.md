@@ -8,6 +8,12 @@ monorepo：单仓库管理
 - ESLint TS
   - 在全局安装 ESlint 和 TS这样所有子仓库都能直接使用；
   - ESLint --init 初始化eslint；
+    - @typescript-eslint/parser：ts eslint校验；
+    - eslint-config-standard：eslint标准库；
+    - eslint-config-standard-jsx：eslint标准jsx；
+    - eslint-plugin-import：对导入的库顺序限制；
+    - eslint-plugin-node：对node的限制；
+    - eslint-plugin-promise：对promise的限制；
 
 
 微前端
