@@ -7,6 +7,7 @@ monorepo：单仓库管理
   - packages 放置项目中创建的npm子包主要是一些SDK，如编辑器组件，物料库，核心实现等npm包。
     - core
       - vite-plugin-dts：打包之后自动生成.d.ts文件；
+      - 拖拽 这里使用的是craft.js；
 - 构建
   - Turborepo：用于monorepo下的仓库的统一构建处理；
     - umd支持cjs和amd
@@ -26,8 +27,3 @@ monorepo：单仓库管理
 
 
 低代码
-
-
-apps
-
-packages
